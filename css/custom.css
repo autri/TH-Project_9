@@ -1,0 +1,43 @@
+* {
+    font-family: 'Biryani', sans-serif;
+}
+
+.overlay {
+    position: absolute; 
+    top: 0; 
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    padding: 20px;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-body {
+    border-top: 1px solid lightgrey;
+}
+
+.bg {
+    background-color: #616247!important;
+}
+
+.jumbotron {
+    background-color: #DFCFBE;
+    margin-bottom: 0;
+}
+
+.bg-lite {
+    background-color: #e0e2e4;
+}
