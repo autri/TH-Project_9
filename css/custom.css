@@ -1,5 +1,29 @@
 * {
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h4, .btn {
+    font-family: 'Martel', serif;
+}
+
+.btn-primary {
+    background-color: #347b91;
+    border-color: #347b91;
+}
+
+.btn-primary:hover {
+    background-color: #2a6375;
+    border-color: #2a6375;
+}
+
+.btn-secondary {
+    background-color: #597064;
+    border-color: #597064;
+}
+
+.btn-secondary:hover {
+    background-color: #4d6659;
+    border-color: #4d6659;
 }
 
 .overlay {
