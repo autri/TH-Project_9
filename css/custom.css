@@ -65,3 +65,14 @@ img {
 .bg-lite {
     background-color: #e0e2e4;
 }
+
+.icon {
+    width: auto;
+    height: 1rem;
+    margin: 5px;
+}
+
+.footer-text {
+    margin: 1.5rem auto;
+    text-align: center;
+}
