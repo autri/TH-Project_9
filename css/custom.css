@@ -76,3 +76,33 @@ img {
     margin: 1.5rem auto;
     text-align: center;
 }
+
+#overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: #FFFFFF;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #96897f;
+    z-index: 10;
+
+    visibility: visible;
+    opacity: 1;
+    transition: visibility .5s, opacity .5s ease;
+}
+
+.overlay-title {
+    /* position: relative;
+    left: 40vw; */
+    align-self: center;
+}
+
+#overlay > .btn {
+    width: 220px;
+    align-self: center;
+    margin: 10px auto;
+}
